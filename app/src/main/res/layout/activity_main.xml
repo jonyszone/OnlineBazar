@@ -7,19 +7,20 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottombar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:id="@+id/bottombar"
-        app:menu="@menu/bottommenu"
-        app:itemTextColor="@color/textcolor"
-        app:itemIconTint="@color/textcolor"
-        android:background="@color/bottombar"
         android:layout_alignParentBottom="true"
+        android:background="@color/bottombar"
+        app:itemIconTint="@color/textcolor"
+        app:itemTextColor="@color/textcolor"
+        app:menu="@menu/bottommenu"
         tools:ignore="InvalidId">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <FrameLayout
+        android:id="@+id/mainframe"
         android:layout_width="match_parent"
         android:layout_height="677dp">
 
